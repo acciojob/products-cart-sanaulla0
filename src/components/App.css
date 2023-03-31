@@ -1,24 +1,24 @@
-.container{
-  width: 40%;
-  height: 20vh;
-  border-collapse: collapse;
-    padding: 10px;
-    margin: 5px;
-    margin-left: 30%;
-text-align: center; 
-background-color: rgb(136, 219, 219);
-border: 1px solid black;
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-h4{
-    margin-left: 30%;
-}
-.item{
-     padding: 3px;
-     margin-top: 5px;
-     background-color: green;
-     color: white;
 
+.grid {
+  display: grid;
+  grid-column-start: 1;
+  grid-column-start: 3;
 }
+
+.item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+
 .cart{
     display: flex;
     justify-content: space-around;

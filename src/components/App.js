@@ -20,39 +20,36 @@ const handleremove = (index)=>{
 
   
   return (
-    <div>
+    <div className="container">
       <h4>List of Products</h4>
-     <table className="container" border='1'>
-      <tbody  >
-        <tr>
-       <td>Samsung Glaxy Fold 4<br/>
-        <button className="item" onClick={()=>handleClick('Samsung Glaxy Fold 4')} >Add item</button>
-       </td>
-       <td>Iphone 14 pro <br/>
+   
+     <div className="grid">
+        
+       <div>Samsung Glaxy Fold 4
+        <button className="item" onClick={()=>handleClick('Samsung Glaxy Fold 4')} >Add Item</button>
+       </div>
+       <div>Iphone 14 pro <br/>
         <button className="item" onClick={()=>handleClick('Iphone 14 pro')
-        } >Add item</button>
-       </td>
-       <td> pixel 5<br/>
-        <button className="item" onClick={()=>handleClick('pixel 5')}  >Add item</button>
-       </td>
-       </tr>
-   <tr>
+        } >Add Item</button>
+       </div>
+       <div> pixel 5<br/>
+        <button className="item" onClick={()=>handleClick('pixel 5')}  >Add Item</button>
+       
 
-   <td> Mi note 6<br/>
-        <button className="item" onClick={()=>handleClick("Mi note 6")}>Add item</button>
-       </td>
-   <td>Fire Stick<br/>
-        <button className="item" onClick={()=>handleClick("Fire Stick")} >Add item</button>
-       </td>
-   <td>Onplus Nord<br/>
-        <button className="item" onClick={()=>handleClick("Onplus Nord")} > Add item</button>
-       </td>
+   <div> Mi note 6<br/>
+        <button className="item" onClick={()=>handleClick("Mi note 6")}>Add Item</button>
+       </div>
+   <div>Fire Stick<br/>
+        <button className="item" onClick={()=>handleClick("Fire Stick")} >Add Item</button>
+       </div>
+   <div>Onplus Nord<br/>
+        <button className="item" onClick={()=>handleClick("Onplus Nord")} > Add Item</button>
+       </div>
+       </div>
+   
 
-   </tr>
-
-
-      </tbody>
-     </table>
+       </div>
+     
 
 <h1>cart</h1>
 
@@ -67,6 +64,7 @@ const handleremove = (index)=>{
 
 
     </div>
+    
   )
 }
 
