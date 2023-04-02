@@ -20,35 +20,36 @@ const handleremove = (index)=>{
 
   
   return (
-    <div className="container">
+    <div >
       <h4>List of Products</h4>
    
-     <div className="grid">
+         
+         <div className="container" >
         
-       <div>Samsung Glaxy Fold 4
-        <button className="item" onClick={()=>handleClick('Samsung Glaxy Fold 4')} >Add Item</button>
+       <div className="item">Samsung Glaxy Fold 4
+        <button  onClick={()=>handleClick('Samsung Galaxy Fold 4')} >Add Item</button>
        </div>
-       <div>Iphone 14 pro <br/>
-        <button className="item" onClick={()=>handleClick('Iphone 14 pro')
+       <div className="item">Iphone 14 pro <br/>
+        <button  onClick={()=>handleClick('Iphone 14 pro')
         } >Add Item</button>
        </div>
-       <div> pixel 5<br/>
-        <button className="item" onClick={()=>handleClick('pixel 5')}  >Add Item</button>
-       
+       <div className="item"> pixel 5<br/>
+        <button  onClick={()=>handleClick('pixel 5')}  >Add Item</button>
+       </div>
 
-   <div> Mi note 6<br/>
-        <button className="item" onClick={()=>handleClick("Mi note 6")}>Add Item</button>
+   <div className="item"> Mi note 6<br/>
+        <button  onClick={()=>handleClick("Mi note 6")}>Add Item</button>
        </div>
-   <div>Fire Stick<br/>
-        <button className="item" onClick={()=>handleClick("Fire Stick")} >Add Item</button>
+   <div className="item">Fire Stick<br/>
+        <button  onClick={()=>handleClick("Fire Stick")} >Add Item</button>
        </div>
-   <div>Onplus Nord<br/>
-        <button className="item" onClick={()=>handleClick("Onplus Nord")} > Add Item</button>
+   <div className="item">Onplus Nord<br/>
+        <button  onClick={()=>handleClick("Onplus Nord")} > Add Item</button>
        </div>
-       </div>
+      
    
-
        </div>
+      
      
 
 <h1>cart</h1>
